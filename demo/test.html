@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin:0;padding:0;}
+        .box{width:500px;height:500px;border:1px solid #ccc;}
+        .box div{
+            width:100px;height:100px;
+            background:red;
+            margin:100px auto;
+            transition:1s ease all;
+            transform-origin:right top;
+        }
+        .active{
+            transform:rotate(360deg);
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var oBox=document.querySelector('.box');
+            var oChild=document.querySelector('.box div');
+            oBox.onmouseover=function(){
+                oChild.classList.add('active');
+            };
+            oBox.onmouseout=function(){
+                oChild.classList.remove('active');
+            };
+        };
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div></div>
+    </div>
+</body>
+</html>

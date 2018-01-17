@@ -1,0 +1,110 @@
+/*header*/
+.header{width:100%;height:50px;background:url(../../images/header-bg.png) repeat-x left center;position:fixed;left:0;top:0;z-index: 3;}
+.header-content{margin:0 auto;}
+.header img{width:90px;margin-left:50px;padding-top:8px;float:left;}
+.header-nav{float:right;}
+.header-nav li{float:left;}
+.header-nav a{
+    font-weight:bold;
+    display: block;color:#56d4ff;font-size:16px;padding:0 14px;line-height:50px;height:50px;border-bottom:0px solid #f0a05b;
+    -webkit-transition: .5s .25s ease all;
+    -moz-transition: .5s .25s ease all;
+    -ms-transition: .5s .25s ease all;
+    -o-transition: .5s .25s ease all;
+    transition: .5s .25s ease all;
+    text-shadow: 1px 1px 1px #42b8e0;
+}
+.header-nav a:hover{
+    background: #00bcff;color: #fff;/*height:46px;border-bottom-width:4px;*/
+    -webkit-transition: .5s 0s ease all;
+    -moz-transition: .5s 0s ease all;
+    -ms-transition: .5s 0s ease all;
+    -o-transition: .5s 0s ease all;
+    transition: .5s 0s ease all;
+}
+
+/*fixed*/
+.banner-fixed{position:fixed;right:0;top:50%;width:110px;padding:5px 0 5px 5px;margin-top:-145px;border:2px solid rgba(0, 165, 255, 0.74);border-radius:15px;border-top-right-radius: 0;border-bottom-right-radius: 0;border-right-width:0;box-shadow:0 0 20px 2px rgba(0, 165, 255, 0.32);z-index: 5;opacity: .8;filter:alpha(opacity=80);}
+.banner-fixed{text-align: center;}
+.banner-fixed h3{font-size:16px;font-weight:bold;line-height:25px;color:#007ec3;padding-bottom:10px;border-bottom:1px dashed #007ec3;}
+.banner-fixed ul{padding:5px 0 5px 5px;border-radius:15px;background:#e4f5ff;border-top-right-radius: 0;border-bottom-right-radius:0;}
+.banner-fixed li{margin-top:10px;}
+.banner-fixed a{display:block;font-size:14px;color:#007ec3;font-weight:bold;line-height:30px;text-align: center;margin-top:10px;}
+
+
+
+/*footer*/
+.footer{width:100%;background:url(../../images/footer-bg.jpg) repeat-x left center;height:123px;min-width: 1200px;}
+.footer-content{margin:0 auto;}
+.footer .logoBox{padding:32px 0 0 100px;float:left;}
+.footer .logoBox a{padding:10px 30px 10px 20px;border:1px solid #444;background:#383838;border-radius:10px;}
+.footer .logoBox a img{
+    width:83px;opacity:.7;filter:alpha(opacity=70);
+    -webkit-transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -ms-transition: .2s ease all;
+    -o-transition: .2s ease all;
+    transition: .2s ease all;
+}
+.footer .logoBox a:hover img{opacity: 1;filter:alpha(opacity:1);}
+.footer ul{float:left;padding-top:58px;padding-left:100px;}
+.footer ul li{float:left;padding:0 15px;line-height:14px;border-right:2px solid #6b6b6b;}
+.footer ul li.last-list{border-right-width:0;}
+.footer ul li a{
+    color:#fff;opacity:.5;filter:alpha(opacity=50);
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -ms-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+}
+.footer ul li a:hover{opacity:.8;filter:alpha(opacity=80);}
+.footer ul li.child1 a{color: #ff7c66;}
+.footer ul li.child2 a{color: #ffbf34;}
+.footer ul li.child3 a{color: #fdff60;}
+.footer ul li.child4 a{color:#47ff2b;}
+.footer ul li.child5 a{color: #5fd3ff;}
+.footer ul li.child6 a{color: #c184ff;}
+
+.footer .wechatBox{float:left;padding-top:20px;margin-left:20px;}
+.footer .wechatBox img{width:85px;}
+.footer .min-wechat-box{display: none;}
+
+body .content{padding-top:100px;}
+
+@media all and (min-width:1024px) {
+    .header{min-width: 1000px;}
+    .header-content{width:1000px;}
+}
+@media all and (max-width: 745px) and (min-width: 600px) {
+    .header img{display: none;}
+}
+@media all and (max-width: 1000px) {
+    .footer{
+        overflow: hidden;
+    }
+    .footer-content{
+        overflow: hidden;
+    }
+    .footer .logoBox{
+        width:250px;
+        float:none;
+        margin:15px auto;
+        padding:0;
+    }
+    .footer ul{
+        float: none;
+        overflow: hidden;
+        padding:0;
+        margin: 0 auto;
+        width: 455px;
+    }
+    .wechatBox{display: none;}
+    .footer .logoBox a{display: inline-block;vertical-align: middle;}
+    .footer .min-wechat-box{display: inline-block;vertical-align: middle;width:66px;margin-left:38px;}
+}
+@media all and (max-width: 610px) {
+    .header{width:1200px;position: relative;}
+    .header img{display: none;}
+    .header-content{width:610px;margin:0;}
+}

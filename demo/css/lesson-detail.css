@@ -1,0 +1,15 @@
+.lesson_detail{padding-top:50px;padding-bottom: 50px;background: url(../images/bg-table.jpg) repeat center center;}
+.lesson_detail div{width:600px;margin:0 auto;}
+.lesson_detail h1{font-size:25px;font-weight: bold;line-height:30px;text-align: center;color:#b33131;text-shadow: 1px 1px 1px #b33131;}
+.lesson_detail h2{text-align: right;color:#b33131;text-shadow: 1px 1px 1px #b33131;font-weight:bold;}
+.lesson_detail p{font-weight: bold;font-size:14px;line-height:20px;margin-bottom: 50px;color:#b33131;text-shadow: 1px 1px 1px #b33131;}
+.lesson_detail p span{font-weight: bold;}
+.lesson_detail table{border:2px solid #b38f31;border-radius:5px;text-shadow:1px 1px 1px #b38f31;}
+.lesson_detail table thead tr{background:#b38f31;color:#fff;}
+.lesson_detail table th{text-align: center;font-size:16px;line-height:45px;text-shadow: 1px 1px 1px #f7efdb;font-weight:bold;}
+.lesson_detail table td{text-align: center;font-size:14px;line-height:20px;border-bottom:2px solid #b38f31;border-right:2px solid #b38f31;padding:10px;
+    color: #885602;;font-weight:bold;}
+.lesson_detail table tbody tr td:last-child{border-right-width:0;}
+.lesson_detail table tbody tr:first-child td:first-child{border-bottom-width:0;}
+.lesson_detail table tbody tr:last-child td{border-bottom-width:0;}
+.lesson_detail table td:last-child{text-align: left;text-indent: 2em;}

@@ -1,0 +1,6 @@
+ul{width:660px; overflow:hidden;margin:30px auto;}
+li{float:left; position:relative; margin:5px; width:200px; height:200px; background:#ccc; text-align:center; line-height:200px; font-size:25px; overflow:hidden;}
+li span{position:absolute; top:0; left:-200px; width:100%; height:100%; background:rgba(39, 214, 228, 0.69);z-index: 2;color:#730707;font-weight:bold;}
+li img{width:calc( 100% - 2px );border:1px solid #f40;}
+li.child_list4 span{line-height: 30px;height: calc( 100% - 50px);padding-top:50px;}
+li.child_list5 span{line-height: 30px;height: calc( 100% - 70px);padding-top:70px;}

@@ -1,0 +1,13 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#000;}
+a,span,b,i,em,strong,ul,li,div,p,ol,dl,dt,dd,table,tr,td,thead,tbody,tfoot{font-family: }
+a,span,b,i,em,strong{display:inline-block;font-size:14px;}
+h1,h2,h3,h4,h5,h6{font-size:14px;font-weight:normal;}
+p{margin:0;padding:0;}
+ul{list-style:none;}
+i,em{font-style:normal;}
+b,strong{font-weight:normal;}
+img{vertical-align:middle;}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;}
